@@ -4,9 +4,8 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+autohooks = "*"
 autohooks-plugin-pylint = "*"
-
-[packages]
 
 [requires]
 python_version = "3.6"
