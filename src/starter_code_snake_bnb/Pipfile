@@ -7,6 +7,11 @@ verify_ssl = true
 
 [packages]
 source = "*"
+pymongo = "*"
+mongoengine = "*"
+tqdm = "*"
+colorama = "*"
+python-dateutil = "*"
 
 [requires]
 python_version = "3.7"
