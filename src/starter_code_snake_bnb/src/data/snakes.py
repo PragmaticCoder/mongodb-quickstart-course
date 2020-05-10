@@ -1,6 +1,6 @@
 class Snake:
-    registered_date = None
     species = None
+    registered_date = None
 
     length = None
     name = None
