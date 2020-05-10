@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "c7fb561557be8e52975d25ce50fbab87def99783123230fe10aa31df32dde9e8"
+            "sha256": "47529377af9ae84f43a6539c8916112e0dcbc8315400ca87bd238fcb9e55a837"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -122,5 +122,39 @@
             "version": "==4.46.0"
         }
     },
-    "develop": {}
+    "develop": {
+        "githooks": {
+            "hashes": [
+                "sha256:84cdaa04c9656f2ccd2f63f4c32a6c7c76cce0897d372837f8894d226ff1ef94"
+            ],
+            "index": "pypi",
+            "version": "==0.5"
+        },
+        "hghooks": {
+            "hashes": [
+                "sha256:a8f3572d846c1ed6d788ab82fa982de842d7461e5b17428afbb6f985b0bdeba1"
+            ],
+            "version": "==0.7.0"
+        },
+        "pep8": {
+            "hashes": [
+                "sha256:b22cfae5db09833bb9bd7c8463b53e1a9c9b39f12e304a8d0bba729c501827ee",
+                "sha256:fe249b52e20498e59e0b5c5256aa52ee99fc295b26ec9eaa85776ffdb9fe6374"
+            ],
+            "version": "==1.7.1"
+        },
+        "pyflakes": {
+            "hashes": [
+                "sha256:0d94e0e05a19e57a99444b6ddcf9a6eb2e5c68d3ca1e98e90707af8152c90a92",
+                "sha256:35b2d75ee967ea93b55750aa9edbbf72813e06a66ba54438df2cfac9e3c27fc8"
+            ],
+            "version": "==2.2.0"
+        },
+        "pyjslint": {
+            "hashes": [
+                "sha256:e817581357858656ba7eae837240eb66d4c9b4e9ff34ee430d42910131467b3d"
+            ],
+            "version": "==0.3.4"
+        }
+    }
 }
