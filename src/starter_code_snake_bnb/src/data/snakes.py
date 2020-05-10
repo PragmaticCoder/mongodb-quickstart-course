@@ -7,6 +7,6 @@ class Snake:
     is_venomous = None
 
     meta_data = {
-        'db_alias': '',
+        'db_alias': 'core',
         'collection': 'snake',
     }
