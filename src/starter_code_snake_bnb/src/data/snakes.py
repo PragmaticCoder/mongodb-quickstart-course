@@ -3,7 +3,7 @@ from datetime import datetime
 import mongoengine
 
 
-class Snake:
+class Snake(mongoengine.Document):
     name = mongoengine.StringField(required=True)
     species = mongoengine.StringField(required=True)
 
