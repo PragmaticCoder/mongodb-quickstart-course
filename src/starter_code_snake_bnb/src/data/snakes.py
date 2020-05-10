@@ -9,7 +9,7 @@ class Snake:
 
     length = mongoengine.FloatField(required=True, min_value=0.00)
     is_venomous = mongoengine.BooleanField(required=True)
-    registered_date = mongoengine.DateTimeField(default=datetime.now())
+    registered_date = mongoengine.DateTimeField(default=datetime.now)
 
     meta_data = {
         'db_alias': 'core',
