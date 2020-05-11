@@ -49,8 +49,6 @@ def show_commands():
 
 def create_account():
     print(' ****************** REGISTER **************** ')
-    # TODO: Get name & email
-    # TODO: Create account, set as logged in.
     name = input('What is your name ? ')
     email = input('What is your email ? ')
 
