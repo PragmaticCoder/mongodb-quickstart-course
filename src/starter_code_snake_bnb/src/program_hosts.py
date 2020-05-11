@@ -53,7 +53,14 @@ def create_account():
     name = input('What is your name ? ')
     email = input('What is your email ? ')
 
-    state.owner = svc.create_account(name, email)
+    old_account = svc.find_account_by_email(email)
+
+    if old_account:
+        error_msg(f"ERROR: Account with email {email} already exists.")
+        return
+
+    state.active_account = svc.create_account(name, email)
+    success_msg(f"Created new account with id {state.active_account.id}")
 
 
 def log_into_account():
