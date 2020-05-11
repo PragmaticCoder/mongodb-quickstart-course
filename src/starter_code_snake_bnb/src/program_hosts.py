@@ -51,7 +51,7 @@ def show_commands():
 def create_account():
     print(' ****************** REGISTER **************** ')
     name = input('What is your name ? ')
-    email = input('What is your email ? ')
+    email = input('What is your email ? ').strip().lower()
 
     old_account = svc.find_account_by_email(email)
 
@@ -65,7 +65,7 @@ def create_account():
 
 def log_into_account():
     print(' ****************** LOGIN **************** ')
-
+    account =
     # TODO: Get email
     # TODO: Find account in DB, set as logged in.
 
