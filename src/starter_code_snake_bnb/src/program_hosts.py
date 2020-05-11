@@ -1,6 +1,7 @@
 from colorama import Fore
-from infrastructure.switchlang import switch
+
 import infrastructure.state as state
+from infrastructure.switchlang import switch
 
 
 def run():
@@ -50,6 +51,8 @@ def create_account():
     print(' ****************** REGISTER **************** ')
     # TODO: Get name & email
     # TODO: Create account, set as logged in.
+    name = input('What is your name ? ')
+    email = input('What is your email ? ')
 
     print(" -------- NOT IMPLEMENTED -------- ")
 
